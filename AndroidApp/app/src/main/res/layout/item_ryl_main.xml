@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:gravity="center"
+  android:paddingTop="10dp"
+  android:paddingBottom="10dp"
+  android:layout_height="match_parent">
+
+    <Button
+      android:id="@+id/item_btn_ryl_main"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="5dp"
+      android:background="@drawable/item_btn_ryl_main_selector"
+      android:text="@string/app_name"
+      android:textAllCaps="false" />
+</RelativeLayout>

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rCN\\values-zh-rCN.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "18",
+                        "startColumns": "4",
+                        "startOffsets": "910",
+                        "endColumns": "100",
+                        "endOffsets": "1006"
+                    }
+                },
+                {
+                    "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\values-zh-rCN\\strings.xml",
+                    "from": {
+                        "startLines": "4,11,12,15,13,14,3,6,2,18,5,10,8,9,7,17,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,1,4,4,4,4,4,4,4,4",
+                        "startOffsets": "143,541,604,762,659,716,99,242,52,904,187,481,348,412,296,855,807",
+                        "endColumns": "43,62,54,44,56,45,43,53,43,50,54,59,63,68,51,48,47",
+                        "endOffsets": "182,599,654,802,711,757,138,291,94,950,237,536,407,476,343,899,850"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,99,162,217,262,319,365,409,463,510,561,616,676,740,809,861,1011",
+                        "endColumns": "43,62,54,44,56,45,43,53,46,50,54,59,63,68,51,48,47",
+                        "endOffsets": "94,157,212,257,314,360,404,458,505,556,611,671,735,804,856,905,1054"
+                    }
+                }
+            ]
+        }
+    ]
+}

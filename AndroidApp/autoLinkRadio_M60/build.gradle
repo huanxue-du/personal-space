@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 19
+    defaultConfig {
+        applicationId "com.autolink.radio55"
+        minSdkVersion 19
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.6'
+        targetCompatibility = '1.6'
+    }
+
+
+}
+
+dependencies {
+    implementation files('libs/framework.jar')
+    implementation files('libs/mvcadapter.jar')
+    implementation files('libs/RadioMode.jar')
+    implementation files('libs/view-libraries.jar')
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+}
+

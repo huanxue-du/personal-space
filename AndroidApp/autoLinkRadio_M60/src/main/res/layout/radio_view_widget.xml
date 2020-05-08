@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical" >
+
+    <RelativeLayout
+        android:id="@+id/widget_avn"
+        android:layout_width="333dp"
+        android:layout_height="414dp"
+        android:background="@drawable/radio_appwidget_bg_none"
+        android:clickable="true" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/radio_img_radio" />
+
+        <RelativeLayout
+            android:id="@+id/widget_show_mainfreq"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center_horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/widget_mainfreq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+
+                android:textColor="@color/yelou"
+                android:textSize="65sp" />
+
+            <TextView
+                android:id="@+id/widget_mainfreq_mkz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="5dp"
+                android:gravity="center"
+
+                android:textColor="@color/yelou"
+                android:textSize="28sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginRight="28dp" >
+
+            <ImageButton
+                android:id="@+id/widget_button_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/radio_appwidget_previous" />
+
+            <TextView
+                android:id="@+id/widget_enter_radio"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="@string/radio_avn_main"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+
+            <ImageButton
+                android:id="@+id/widget_button_next"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/radio_appwidget_next" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

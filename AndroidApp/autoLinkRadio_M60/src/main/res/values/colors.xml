@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textview_bg_blue">#3A91FF</color>
+    <color name="gray">#ff0a0a0a</color>
+    <color name="text">#ffffff </color>
+    <color name="yelou">#ffffff</color>
+    <color name="main_band">#ffffff</color>
+    <color name="main_freq">#FDE43A</color>
+    <!-- #A59F83</color> -->
+    <color name="white">#ffcccccc</color>
+    <color name="black">#cccccccc</color>
+    <color name="red">#ffff0000</color>
+    <color name="radio_diaolog_bt_color">#9C9A99</color>
+    <color name="defaul_color">#d9d8d7</color>
+    0x0106000d
+    public static final int transparent = 17170445;
+</resources>

@@ -1,0 +1,530 @@
+[
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_prev_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_prev_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_dialog_collect.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_dialog_collect.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_img_radio.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_img_radio.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_album_art_unknown.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_album_art_unknown.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_fm_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_fm_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_btn_no_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\dialog_btn_no_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_play_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_play_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_previous_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_previous_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_button_background_ok_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_button_background_ok_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_playing_2.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_playing_2.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_bg_list.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_bg_list.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\color_radio_play_list_item_title_color.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\color\\radio_play_list_item_title_color.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_list_item_coll.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_list_item_coll.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_coll_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_coll_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_search_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_search_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_appwidget_next.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_appwidget_next.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_list_divider.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\list_divider.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_am_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_am_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_list_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_list_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_am_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_am_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_dele_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_dele_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_playing_1.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_playing_1.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_coll_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_coll_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_scanding.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\bg_scanding.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_next_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_next_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_bg.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_appwidget_stop_play.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_appwidget_stop_play.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_icon_list_all_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_icon_list_all_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_button_cancel_background_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_button_cancel_background_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_scand_again_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_scand_again_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_radio_bg.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_radio_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_underline_s.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_underline_s.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_online_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_online_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_am_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_am_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_to_online_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_to_online_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_btn_icon_list_all_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\btn_icon_list_all_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_main_scrollview.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\bg_main_scrollview.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_button_background_ok_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_button_background_ok_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_search_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_search_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_coll_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_coll_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_loading_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\bg_loading_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_iv_back_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\iv_back_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_coll_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_coll_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_view_widget.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_view_widget.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_btn_icon_list_coll_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\btn_icon_list_coll_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_icon_list_all_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_icon_list_all_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_next_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_next_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_to_online_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_to_online_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_item_delete_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\item_delete_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_recent_chat_showright_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-hdpi\\recent_chat_showright_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_view_scand.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_view_scand.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_btn_list_show_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\btn_list_show_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_next_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_next_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_fm_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_fm_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_media_bg.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_media_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_btn_yes_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\dialog_btn_yes_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_search_again_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_search_again_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_iv_back_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\iv_back_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_icon_list_coll_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_icon_list_coll_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_pause_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_pause_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_fm_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_fm_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_list_back_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_list_back_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_appwidget_start_play.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_appwidget_start_play.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_main_coll_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_main_coll_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dialog_button_cancel_background_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\dialog_button_cancel_background_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_prev_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_prev_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\color_radio_play_list_title_color.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\color\\radio_play_list_title_color.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_view_toast.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_view_toast.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_playing_3.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_playing_3.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_shousuo_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_shousuo_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_play_normal.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_play_normal.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_loading_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\bg_loading_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_appwidget_previous.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_appwidget_previous.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_next_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_next_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_play_list_play_indicator.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_play_list_play_indicator.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_next_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_next_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_pause_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_pause_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_bg_none.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_bg_none.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_search_again_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_search_again_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_sliding_bg.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\sliding_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_item_dele_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\item_dele_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_icon_list_coll_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_icon_list_coll_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_appwidget_previous_focus.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_appwidget_previous_focus.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_bg_main.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\bg_main.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\2ffb88316df49107418be0872d7babe4\\core-1.0.0\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_view_mainview.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_view_mainview.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_radio_loading_point.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\radio_loading_point.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_iv_back_p.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\iv_back_p.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_radio_list_item_all.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\layout\\radio_list_item_all.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_btn_list_n.png.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable-mdpi\\btn_list_n.png"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_textview_bg.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\textview_bg.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\drawable_radio_pre_selector.xml.flat",
+        "source": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\src\\main\\res\\drawable\\radio_pre_selector.xml"
+    },
+    {
+        "merged": "E:\\StudioWorkSpace_New\\AndroidApp\\autoLinkRadio_M60\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\a6ce3afbff3f1ae3fa1fe13048b173d9\\media-1.0.0\\res\\layout\\notification_media_cancel_action.xml"
+    }
+]

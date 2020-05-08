@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.autolink.radio55"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="19" />
+9-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:9:5-78
+11-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:9:22-75
+12    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+12-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:10:5-80
+12-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:10:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:11:5-81
+13-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:11:22-78
+14    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+14-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:12:5-84
+14-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:12:22-81
+15    <uses-permission android:name="young.permission.START_SERVICE" />
+15-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:13:5-70
+15-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:13:22-67
+16    <uses-permission android:name="young.permission.BIND_SERVICE" />
+16-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:14:5-69
+16-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:14:22-66
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:15:5-81
+17-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:15:22-78
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:16:5-79
+18-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:16:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:17:5-81
+19-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:17:22-78
+20    <uses-permission android:name="android.permission.UPDATE_APP_OPS_STATS" />
+20-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:18:5-79
+20-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:18:22-76
+21
+22    <application
+22-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:20:5-28:19
+23        android:allowBackup="true"
+23-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:21:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2ffb88316df49107418be0872d7babe4\core-1.0.0\AndroidManifest.xml:22:18-86
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_launcher"
+26-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:22:9-45
+27        android:label="@string/radio_app_name"
+27-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:23:9-47
+28        android:screenOrientation="landscape"
+28-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:24:9-46
+29        android:theme="@style/AppTheme" >
+29-->E:\StudioWorkSpace_New\AndroidApp\autoLinkRadio_M60\src\main\AndroidManifest.xml:25:9-40
+30    </application>
+31
+32</manifest>
