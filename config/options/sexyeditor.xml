@@ -1,0 +1,31 @@
+<application>
+  <component name="SexyEditor">
+    <option name="configs">
+      <list>
+        <BackgroundConfiguration>
+          <option name="fileNames">
+            <array>
+              <option value="C:\Users\Administrator\Desktop\pic\iv1.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\iv2.jpeg" />
+              <option value="C:\Users\Administrator\Desktop\pic\ahri_05.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\ting.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\ahri_01.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\ahri_06.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\ahri_07.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\annie_08.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\timg (1).jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\v2-9b2be1633a21f0ef234023eb9f3b7eaf_r.jpg" />
+              <option value="C:\Users\Administrator\Desktop\pic\vi_10.jpg" />
+            </array>
+          </option>
+          <option name="position" value="5" />
+          <option name="random" value="true" />
+          <option name="shrink" value="true" />
+          <option name="shrinkValue" value="100" />
+          <option name="slideshow" value="true" />
+          <option name="slideshowPause" value="300000" />
+        </BackgroundConfiguration>
+      </list>
+    </option>
+  </component>
+</application>

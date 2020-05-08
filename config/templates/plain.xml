@@ -1,0 +1,8 @@
+<templateSet group="plain">
+  <template name="final" value="public static final " description="public static final" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_DECLARATION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>

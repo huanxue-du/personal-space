@@ -1,0 +1,7 @@
+<templateSet group="output">
+  <template name="syso" value="System.out.println();" description="Prints method parameter names and values to System.out" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
