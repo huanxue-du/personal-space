@@ -11,8 +11,8 @@ import java.util.List;
  */
 public class DemoAdapter extends MyBaseRlvAdapter<String> {
 
-    private Context mContext;//上下文
-    private List<String> mData;//数据源
+    private Context mContext;
+    private List<String> mData;
 
     public DemoAdapter(Context context, List<String> data) {
         super(context, data);

@@ -16,8 +16,8 @@ import java.util.List;
 public class MainRlvAdapter extends MyBaseRlvAdapter<Class> {
 
     private static final String TAG = "MainRlvAdapter";
-    private Context mContext;//上下文
-    private List<Class> mData;//数据源
+    private Context mContext;
+    private List<Class> mData;
 
     public MainRlvAdapter(Context context, List<Class> data) {
         super(context, data);

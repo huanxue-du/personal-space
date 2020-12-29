@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.media.AudioManager;
+import android.os.Handler;
 import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import com.sz.huanxue.androidapp.utils.SoundPoolUtils;
@@ -48,6 +49,7 @@ public class MyApplication extends Application {
             }
         }
     };
+    private static Handler mainThreadHandler = new Handler();
     private static AudioManager mAudioManager;
     private AppBroad mBroad;
 
@@ -98,6 +100,10 @@ public class MyApplication extends Application {
         mContext.sendBroadcast(intent);
     }
 
+    public static Handler getMainThreadHandler() {
+        return mainThreadHandler;
+    }
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -112,8 +118,7 @@ public class MyApplication extends Application {
         Log.i("logcat", "MyApplication-----onCreate");
 //        mContext.sendBroadcast(new Intent("android.intt.action.STOP_USM_SERVICE"));
         SoundPoolUtils.getInstance(mContext);
-        SkinCompatManager.withoutActivity(this)
-            .addInflater(new SkinAppCompatViewInflater())           // 基础控件换肤初始化
+        SkinCompatManager.withoutActivity(this).addInflater(new SkinAppCompatViewInflater())           // 基础控件换肤初始化
             .addInflater(new SkinMaterialViewInflater())            // material design 控件换肤初始化[可选]
             .addInflater(new SkinConstraintViewInflater())          // ConstraintLayout 控件换肤初始化[可选]
             .addInflater(new SkinCardViewInflater())                // CardView v7 控件换肤初始化[可选]
@@ -127,7 +132,6 @@ public class MyApplication extends Application {
         super.onTerminate();
         mContext.unregisterReceiver(mBroad);
     }
-
 
     private class AppBroad extends BroadcastReceiver {
 

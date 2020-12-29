@@ -11,9 +11,10 @@ import android.util.Log;
  * Created by Administrator on 2019.10.22.
  */
 public class BootReceiver extends BroadcastReceiver {
-
+    /**
+     * 开机启动广播
+     */
     private static final String BOOT_COMPLETED = "android.intent.action.BOOT_COMPLETED";
-    private static final String STOP_SERVICE = "android.intent.action.STOP_USM_SERVICE";
 
     @Override
     public void onReceive(Context context, Intent intent) {

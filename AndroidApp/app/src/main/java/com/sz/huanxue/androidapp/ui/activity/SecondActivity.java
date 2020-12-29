@@ -6,9 +6,11 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import androidx.appcompat.app.AppCompatActivity;
+
 import com.sz.huanxue.androidapp.R;
-import skin.support.SkinCompatManager;
+import com.sz.huanxue.androidapp.utils.SoundPoolUtils;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author huanxue
@@ -74,12 +76,14 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
         switch (v.getId()) {
             case R.id.btn_style1:
                 Log.i("logcat", "SecondActivity-----style111111");
-                SkinCompatManager.getInstance().restoreDefaultTheme();
+//                SkinCompatManager.getInstance().restoreDefaultTheme();
+                SoundPoolUtils.getInstance(this).playSound(1, 3);
                 break;
             case R.id.btn_style2:
                 Log.i("logcat", "SecondActivity-----style2222222");
-                SkinCompatManager.getInstance().loadSkin("two", null, SkinCompatManager.SKIN_LOADER_STRATEGY_BUILD_IN);
+//                SkinCompatManager.getInstance().loadSkin("two", null, SkinCompatManager.SKIN_LOADER_STRATEGY_BUILD_IN);
 //                SkinCompatUserThemeManager.get().addColorState(R.color.colorPrimary, "#38F803");
+                SoundPoolUtils.getInstance(this).playSound(2, 1);
                 break;
         }
     }

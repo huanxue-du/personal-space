@@ -8,22 +8,22 @@ import com.sz.huanxue.androidapp.MyApplication;
  * @author huanxue
  * Created by Administrator on 2019/6/27.
  */
-public class SharedPrepreferenceUtils {
+public class SpUtils {
 
-    public static final String TAG = "SharedPrepreferenceUtils";
+    public static final String TAG = "SpUtils";
     private static final String SP_NAME = "USM_SP";
-    private static final SharedPrepreferenceUtils instance = new SharedPrepreferenceUtils(MyApplication.getInstance());
+    private static final SpUtils instance = new SpUtils(MyApplication.getInstance());
     private Context mContext;
     private SharedPreferences sp;
     private SharedPreferences.Editor editor;
 
-    private SharedPrepreferenceUtils(Context mContext) {
+    private SpUtils(Context mContext) {
         this.mContext = mContext.getApplicationContext();
         sp = mContext.getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
         editor = sp.edit();
     }
 
-    public static SharedPrepreferenceUtils getInstance() {
+    public static SpUtils getInstance() {
         return instance;
     }
 
