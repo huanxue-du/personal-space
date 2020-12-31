@@ -1,29 +1,31 @@
-package com.sz.huanxue.androidapp.utils;
+package com.sz.huanxue.androidapp.data.local;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import com.sz.huanxue.androidapp.MyApplication;
+
+import com.sz.huanxue.androidapp.huanxueApp;
+
 
 /**
  * @author huanxue
  * Created by Administrator on 2019/6/27.
  */
-public class SpUtils {
+public class SharedPrepreferenceUtils {
 
-    public static final String TAG = "SpUtils";
-    private static final String SP_NAME = "USM_SP";
-    private static final SpUtils instance = new SpUtils(MyApplication.getInstance());
+    public static final String TAG = "SharedPrepreferenceUtils";
+    private static final String SP_NAME = "MediaMusic_SP";
+    private static final SharedPrepreferenceUtils instance = new SharedPrepreferenceUtils(huanxueApp.getContext());
     private Context mContext;
     private SharedPreferences sp;
     private SharedPreferences.Editor editor;
 
-    private SpUtils(Context mContext) {
+    private SharedPrepreferenceUtils(Context mContext) {
         this.mContext = mContext.getApplicationContext();
         sp = mContext.getSharedPreferences(SP_NAME, Context.MODE_PRIVATE);
         editor = sp.edit();
     }
 
-    public static SpUtils getInstance() {
+    public static SharedPrepreferenceUtils getInstance() {
         return instance;
     }
 
@@ -44,18 +46,30 @@ public class SpUtils {
     }
 
     public int getIntSharedPreferences(String key) {
-        return sp.getInt(key, -1);//与账户关联获取
+        return sp.getInt(key, -1);
     }
 
     public int getIntSharedPreferences(String key, int defaultValue) {
-        return sp.getInt(key, defaultValue);//与账户关联获取
+        return sp.getInt(key, defaultValue);
     }
 
     public String getStringSharedPreferences(String key, String defValue) {
         return sp.getString(key, defValue);
     }
 
-    public boolean getBooleanSharedPreferences(String key) {
-        return sp.getBoolean(key, false);
+    public boolean getBooleanSharedPreferences(String key, boolean defValues) {
+        return sp.getBoolean(key, defValues);
+    }
+
+    public void registerListener(SharedPreferences.OnSharedPreferenceChangeListener listener) {
+        if (sp != null) {
+            sp.registerOnSharedPreferenceChangeListener(listener);
+        }
+    }
+
+    public void unregisterListener(SharedPreferences.OnSharedPreferenceChangeListener listener) {
+        if (sp != null) {
+            sp.unregisterOnSharedPreferenceChangeListener(listener);
+        }
     }
 }

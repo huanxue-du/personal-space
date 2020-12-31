@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-kapt'
+
 
 android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.sz.huanxue.androidapp"
-        minSdkVersion 21
+        minSdkVersion 28
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -43,14 +43,12 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
 
-    //only Retrofit（只用Retrofit联网）
-    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
-    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
-
-    //Rxjava and Retrofit（Retrofit+Rx需要添加的依赖）
-    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-    implementation 'io.reactivex:rxandroid:1.2.1'
-    implementation 'io.reactivex:rxjava:1.2.1'
+    implementation "io.reactivex.rxjava2:rxjava:2.1.0" // 必要rxjava2依赖
+    implementation "io.reactivex.rxjava2:rxandroid:2.0.1" // 必要rxandrroid依赖，切线程时需要用到
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0' // 必要retrofit依赖
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.3.0' // 必要依赖，和Rxjava结合必须用到，下面会提到
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0' // 必要依赖，解析json字符所用
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.6.0' //非必要依赖， log依赖，如果需要打印OkHttpLog需要添加
 
     implementation 'skin.support:skin-support:4.0.4'                   // skin-support
     implementation 'skin.support:skin-support-appcompat:4.0.4'         // skin-support 基础控件支持
@@ -65,13 +63,16 @@ dependencies {
     //kotlin依赖
     implementation "androidx.core:core-ktx:+"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.0.0"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
 
     //room相关依赖
     implementation "androidx.room:room-runtime:$rootProject.roomVersion"
     implementation "androidx.room:room-ktx:$rootProject.roomVersion"
-    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
+//    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
     androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
+
+    implementation 'com.hsae.h5.app:business:+'
+    implementation 'com.squareup.okhttp3:okhttp:4.6.0'
 }
 
 task adbRemount(dependsOn: 'assembleRelease', type: Exec) {
