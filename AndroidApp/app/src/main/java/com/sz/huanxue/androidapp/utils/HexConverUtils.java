@@ -4,7 +4,7 @@ package com.sz.huanxue.androidapp.utils;
  * @author huanxue
  * Created by Administrator on 2019.10.10.
  */
-public class DigitalBaseConversionUtils {
+public class HexConverUtils {
     public static String byteToHexStr(byte value) {
         String head = "";
         if (value <= 15 && value >= 0) {

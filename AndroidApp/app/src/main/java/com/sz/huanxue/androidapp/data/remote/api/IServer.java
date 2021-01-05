@@ -5,6 +5,8 @@ import com.sz.huanxue.androidapp.data.remote.bean.QrBean;
 
 import io.reactivex.Observable;
 import okhttp3.MediaType;
+import okhttp3.RequestBody;
+import retrofit2.http.Body;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
@@ -32,7 +34,7 @@ public interface IServer {
     /**
      * 指明的json类型
      */
-    MediaType JSON = MediaType.parse("application/json; charset=utf-8");
+    MediaType JSONTYPE = MediaType.parse("application/json; charset=utf-8");
 
     /**
      * 验证accessToken是否失效
@@ -72,7 +74,28 @@ public interface IServer {
     @FormUrlEncoded
     Observable<Object> login(@Field("loginId") String loginId, @Field("loginType") String loginType, @Field("password") String password, @Field("deviceId") String deviceId, @Field("deviceType") String deviceType, @Field("pdsn") String pdsn, @Field("sign") String sign, @Field("loginMode") String loginMode, @Field("ts") long ts);
 
+    /**
+     * 表单的请求方式
+     *
+     * @param accessToken
+     * @param oauthProviderId
+     * @param statusCode
+     * @param statusComment
+     * @param openTime
+     * @return
+     */
     @FormUrlEncoded
     @POST("/cp-openingrecord/cpBill/billRecord")
-    Observable<OpenRecord> getRecord(@Header(AUTHORIZATION) String accessToken,@Field("oauthProviderId") String oauthProviderId,@Field("statusCode") String statusCode,@Field("statusComment") String statusComment,@Field("openTime") String openTime);
+    Observable<OpenRecord> getRecord(@Header(AUTHORIZATION) String accessToken, @Field("oauthProviderId") String oauthProviderId, @Field("statusCode") String statusCode, @Field("statusComment") String statusComment, @Field("openTime") String openTime);
+
+    /**
+     * json的请求方式，必须使用RequestBody
+     *
+     * @param accessToken
+     * @param body
+     * @return
+     */
+    @POST("/cp-openingrecord/cpBill/billRecord")
+    Observable<OpenRecord> getRecord(@Header(AUTHORIZATION) String accessToken, @Body RequestBody body);
+
 }

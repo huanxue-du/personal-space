@@ -3,7 +3,7 @@ package com.sz.huanxue.androidapp.data.local;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.sz.huanxue.androidapp.huanxueApp;
+import com.sz.huanxue.androidapp.HuanXueApp;
 
 
 /**
@@ -14,7 +14,7 @@ public class SharedPrepreferenceUtils {
 
     public static final String TAG = "SharedPrepreferenceUtils";
     private static final String SP_NAME = "MediaMusic_SP";
-    private static final SharedPrepreferenceUtils instance = new SharedPrepreferenceUtils(huanxueApp.getContext());
+    private static final SharedPrepreferenceUtils instance = new SharedPrepreferenceUtils(HuanXueApp.getContext());
     private Context mContext;
     private SharedPreferences sp;
     private SharedPreferences.Editor editor;

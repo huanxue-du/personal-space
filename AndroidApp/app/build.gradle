@@ -11,6 +11,12 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments = ["room.schemaLocation":
+                                     "$projectDir/schemas".toString()]
+            }
+        }
     }
     buildTypes {
         release {
@@ -67,9 +73,10 @@ dependencies {
 
     //room相关依赖
     implementation "androidx.room:room-runtime:$rootProject.roomVersion"
-    implementation "androidx.room:room-ktx:$rootProject.roomVersion"
-//    kapt "androidx.room:room-compiler:$rootProject.roomVersion"
-    androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
+    implementation "androidx.room:room-ktx:$rootProject.roomVersion"           //可选-Kotlin扩展和协程对Room的支持
+//    kapt "androidx.room:room-compiler:$rootProject.roomVersion"              //kotlin下使用
+    annotationProcessor "androidx.room:room-compiler:$rootProject.roomVersion" //java下使用
+    androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"  //可选-需要用到相关测试工具
 
     implementation 'com.hsae.h5.app:business:+'
     implementation 'com.squareup.okhttp3:okhttp:4.6.0'

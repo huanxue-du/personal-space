@@ -2,7 +2,7 @@
 
 buildscript {
     ext.kotlin_version = '1.4.0'
-    ext.roomVersion = '2.1.0-alpha06'
+    ext.roomVersion = '2.2.5'
     repositories {
         maven { url "http://61.141.236.50:12366/repository/hsae-releases" }
         maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }

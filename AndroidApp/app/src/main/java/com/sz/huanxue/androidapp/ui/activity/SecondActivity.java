@@ -6,21 +6,28 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.hsae.h5.business.userprofile.UserInfo;
 import com.hsae.h5.business.userprofile.UserProfileProxy;
 import com.sz.huanxue.androidapp.R;
+import com.sz.huanxue.androidapp.data.local.db.AppDataBase;
+import com.sz.huanxue.androidapp.data.local.db.DBUtils;
+import com.sz.huanxue.androidapp.data.local.db.UserEntity;
 import com.sz.huanxue.androidapp.data.remote.RetrofitManager;
 import com.sz.huanxue.androidapp.data.remote.api.IServer;
 import com.sz.huanxue.androidapp.data.remote.bean.OpenRecord;
 import com.sz.huanxue.androidapp.data.remote.bean.QrBean;
+import com.sz.huanxue.androidapp.data.remote.bean.RecordBean;
+import com.sz.huanxue.androidapp.utils.LogUtils;
 
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.List;
 import java.util.Locale;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -45,12 +52,13 @@ import okhttp3.Response;
  */
 public class SecondActivity extends AppCompatActivity implements OnClickListener {
 
-
+    public static final String TAG = SecondActivity.class.getSimpleName();
     private Button mBtnStyle1;
     private Button mBtnStyle2;
     private Button mBtnStyle3;
     private Button mBtnStyle4;
     private Button mBtnStyle5;
+    private Button mBtnStyle6;
     private CompositeDisposable compositeDisposable = new CompositeDisposable();
 
     @Override
@@ -99,12 +107,14 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
         mBtnStyle3 = (Button) findViewById(R.id.btn_style3);
         mBtnStyle4 = (Button) findViewById(R.id.btn_style4);
         mBtnStyle5 = (Button) findViewById(R.id.btn_style5);
+        mBtnStyle6 = (Button) findViewById(R.id.btn_style6);
 
         mBtnStyle1.setOnClickListener(this);
         mBtnStyle2.setOnClickListener(this);
         mBtnStyle3.setOnClickListener(this);
         mBtnStyle4.setOnClickListener(this);
         mBtnStyle5.setOnClickListener(this);
+        mBtnStyle6.setOnClickListener(this);
     }
 
     @Override
@@ -114,21 +124,33 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
                 Log.i("logcat", "SecondActivity-----style111111");
 //                SkinCompatManager.getInstance().restoreDefaultTheme();
 //                SoundPoolUtils.getInstance(this).playSound(1, 3);
-                getRecord();
+//                getRecord();
+                insertDB();
                 break;
             case R.id.btn_style2:
                 Log.i("logcat", "SecondActivity-----style2222222");
 //                SkinCompatManager.getInstance().loadSkin("two", null, SkinCompatManager.SKIN_LOADER_STRATEGY_BUILD_IN);
 //                SkinCompatUserThemeManager.get().addColorState(R.color.colorPrimary, "#38F803");
 //                SoundPoolUtils.getInstance(this).playSound(2, 1);
-                getQR();
+//                getQR();deleteDB
+                deleteDB();
                 break;
             case R.id.btn_style3:
-                getRecordByRetrofit();
+//                getRecordByRetrofit();
+                update111();
                 break;
             case R.id.btn_style4:
+//                getRecordByRetrofit2();
+                update222();
                 break;
             case R.id.btn_style5:
+                final UserInfo userInfo = UserProfileProxy.getInstance().getCurrentUserInfo();
+                String text = DBUtils.getInstance().getAccessToken(userInfo.getUserId());
+                Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
+                LogUtils.d("SecondActivity-----style55555");
+                break;
+            case R.id.btn_style6:
+                getAllUser();
                 break;
         }
     }
@@ -226,22 +248,22 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
 
     }
 
-    public void getRecordByRetrofit(){
+    public void getRecordByRetrofit() {
         final UserInfo userInfo = UserProfileProxy.getInstance().getCurrentUserInfo();
         final SimpleDateFormat monthFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINESE);
         String text = monthFormat.format(new Date());
         RetrofitManager.self().getService(IServer.class)
-                .getRecord("Bearer "+userInfo.getAccessToken(),"kuwo","0","成功",text)
+                .getRecord("Bearer " + userInfo.getAccessToken(), "kuwo", "0", "成功", text)
                 .compose(apply())
                 .subscribe(new Observer<OpenRecord>() {
                     @Override
                     public void onSubscribe(@NonNull Disposable d) {
-                        
+
                     }
 
                     @Override
                     public void onNext(@NonNull OpenRecord openRecord) {
-                        Log.i("huanxue", "getRecord  onNext   success");
+                        Log.i("huanxue", "getRecordByRetrofit  onNext   success");
                     }
 
                     @Override
@@ -251,10 +273,98 @@ public class SecondActivity extends AppCompatActivity implements OnClickListener
 
                     @Override
                     public void onComplete() {
-                        
+
                     }
 
 
                 });
     }
+
+    public void getRecordByRetrofit2() {
+
+        final UserInfo userInfo = UserProfileProxy.getInstance().getCurrentUserInfo();
+        final SimpleDateFormat monthFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss", Locale.CHINESE);
+        String text = monthFormat.format(new Date());
+        RecordBean recordBean = new RecordBean("kuwo", "0", "成功", text);
+        String jsonStr = new Gson().toJson(recordBean);
+        RequestBody requestBody = RequestBody.create(IServer.JSONTYPE, jsonStr);
+        RetrofitManager.self().getService(IServer.class)
+                .getRecord("Bearer " + userInfo.getAccessToken(), requestBody)
+                .compose(apply())
+                .subscribe(new Observer<OpenRecord>() {
+                    @Override
+                    public void onSubscribe(@NonNull Disposable d) {
+
+                    }
+
+                    @Override
+                    public void onNext(@NonNull OpenRecord openRecord) {
+                        Log.i("huanxue", "getRecordByRetrofit2  onNext   success");
+                    }
+
+                    @Override
+                    public void onError(@NonNull Throwable e) {
+
+                    }
+
+                    @Override
+                    public void onComplete() {
+
+                    }
+
+
+                });
+    }
+
+    private void insertDB() {
+        final UserInfo userInfo = UserProfileProxy.getInstance().getCurrentUserInfo();
+
+        UserEntity entity = new UserEntity();
+        entity.userId = userInfo.getUserId();
+        entity.accrssToken = userInfo.getAccessToken();
+        entity.aId = userInfo.getLicensePlate();
+        entity.point = userInfo.getPoint();
+        entity.vin = userInfo.getVin();
+        entity.voice = userInfo.getLoginCount();
+        AppDataBase.getInstance().userDao().insertUser(entity);
+
+        UserEntity entity2 = new UserEntity();
+        entity2.userId = "10086111123";
+        entity2.accrssToken = "DsDasda2155115";
+        entity2.aId = "19516455818aasfga";
+        entity2.point = 998;
+        entity2.vin = "CARVIN155";
+        entity2.voice = 99;
+        AppDataBase.getInstance().userDao().insertUser(entity2);
+
+        UserEntity entity3 = new UserEntity("1008611", 777, "AAASSSDDD", "1919sese", 66666, "AAAAAPPPPP");
+        AppDataBase.getInstance().userDao().insertUser(entity3);
+        LogUtils.d(TAG + "  insertDB :");
+    }
+
+    private void deleteDB() {
+        UserEntity entity = new UserEntity();
+        entity.id = 3;
+        entity.userId = "10086111123";
+        int count = AppDataBase.getInstance().userDao().deleteUsers(entity);
+        LogUtils.d(TAG + "  deleteDB  count:" + count);
+    }
+
+    private void update111() {
+        UserEntity entity = new UserEntity();
+        entity.userId = "10086111123";
+        int count = AppDataBase.getInstance().userDao().updateUsers(entity);
+        LogUtils.d(TAG + "  update111  count:" + count);
+    }
+
+    private void update222() {
+        int count = AppDataBase.getInstance().userDao().updateVin("10086111123", "777999");
+        LogUtils.d(TAG + "  update222  count:" + count);
+    }
+
+    private void getAllUser() {
+        List<UserEntity> list = AppDataBase.getInstance().userDao().loadAllUserInfo();
+        LogUtils.d(TAG + "  getAllUser  list:" + list.size());
+    }
+
 }

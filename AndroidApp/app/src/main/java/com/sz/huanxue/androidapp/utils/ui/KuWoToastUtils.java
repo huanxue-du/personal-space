@@ -1,4 +1,4 @@
-package com.sz.huanxue.androidapp.utils;
+package com.sz.huanxue.androidapp.utils.ui;
 
 import android.widget.Toast;
 

@@ -6,7 +6,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.SharedPreferences
 import android.content.SharedPreferences.OnSharedPreferenceChangeListener
-import com.sz.huanxue.androidapp.huanxueApp
+import com.sz.huanxue.androidapp.HuanXueApp
 
 /**
  * @author huanxue
@@ -14,7 +14,7 @@ import com.sz.huanxue.androidapp.huanxueApp
  */
 @SuppressLint("CommitPrefEdits")
 object SPUtils {
-    val mContext: Context = huanxueApp.getContext()
+    val mContext: Context = HuanXueApp.getContext()
     private val sp: SharedPreferences
     private val editor: SharedPreferences.Editor
     private const val SP_NAME = "MediaMusic_SP"

@@ -5,11 +5,11 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Process;
-import android.util.Log;
 
 import com.sz.huanxue.androidapp.data.local.SPUtils;
 import com.sz.huanxue.androidapp.data.local.SharedPrepreferenceUtils;
 import com.sz.huanxue.androidapp.data.remote.RetrofitManager;
+import com.sz.huanxue.androidapp.utils.LogUtils;
 
 import skin.support.SkinCompatManager;
 import skin.support.app.SkinAppCompatViewInflater;
@@ -20,8 +20,9 @@ import skin.support.design.app.SkinMaterialViewInflater;
  * @author huanxue
  * Created by HSAE_DCY on 2020.12.29
  */
-public class huanxueApp extends Application {
+public class HuanXueApp extends Application {
 
+    public static final String TAG = HuanXueApp.class.getSimpleName();
     private final static Handler mAppHandler = new Handler();
     private static Context sContext;
 
@@ -36,7 +37,7 @@ public class huanxueApp extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        Log.i("huanxue", "huanxueApp        onCreate: ");
+        LogUtils.d(TAG + "  onCreate ");
         sContext = getApplicationContext();
         if (!isRemotePid()) {
             initSkip();
@@ -59,7 +60,7 @@ public class huanxueApp extends Application {
     public void onTrimMemory(int level) {
         super.onTrimMemory(level);
         if (level == TRIM_MEMORY_UI_HIDDEN) {
-            Log.i("huanxue", "huanxueApp   onTrimMemory    APP遁入后台: ");
+            LogUtils.d(TAG + "   onTrimMemory    APP遁入后台: ");
         }
     }
 
@@ -74,7 +75,7 @@ public class huanxueApp extends Application {
         for (ActivityManager.RunningAppProcessInfo info : am.getRunningAppProcesses()) {
             if (info.pid == Process.myPid()) {
                 if (info.processName.endsWith(":remote")) {
-                    Log.i("huanxue", "huanxueApp   remote pid: " + info.processName);
+                    LogUtils.d(TAG + "   remote pid: " + info.processName);
                     return true;
                 }
             }
