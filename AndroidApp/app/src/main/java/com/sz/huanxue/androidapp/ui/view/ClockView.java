@@ -13,12 +13,14 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
 import com.sz.huanxue.androidapp.R;
+
 import java.util.Calendar;
 
 
 /**
- * 双主题虚拟时钟UI
+ * 虚拟时钟UI
  */
 public class ClockView extends SurfaceView implements SurfaceHolder.Callback, Runnable {
 
@@ -40,6 +42,8 @@ public class ClockView extends SurfaceView implements SurfaceHolder.Callback, Ru
     private int mSecondDegreeLength;                // 秒刻度
 
     private int mHour, mMinute, mSecond;            // 时钟显示的时、分、秒
+    private int mWidthSize;
+    private int mHeightSize;
 
     public ClockView(Context context) {
         super(context, null);
@@ -85,95 +89,63 @@ public class ClockView extends SurfaceView implements SurfaceHolder.Callback, Ru
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
-        int widthSize = MeasureSpec.getSize(widthMeasureSpec);//当前显示宽度
+        //当前显示宽度
+        mWidthSize = MeasureSpec.getSize(widthMeasureSpec);
         int widthMode = MeasureSpec.getMode(widthMeasureSpec);
-        int heightSize = MeasureSpec.getSize(heightMeasureSpec);//当前显示高度
+        //当前显示高度
+        mHeightSize = MeasureSpec.getSize(heightMeasureSpec);
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
-        Log.i("logcat", TAG + "--widthSize:" + widthSize + "---heightSize:" + heightSize);
+        Log.i("logcat", TAG + "--widthSize:" + mWidthSize + "---heightSize:" + mHeightSize);
         Log.i("logcat", TAG + "--widthMode:" + widthMode + "---heightMode:" + heightMode);
     }
 
+    /**
+     * 需要保证切图的宽高是一致的，如果不一致，也可以通过代码动态调整中心点进行居中
+     * 调整drawBitmap时的位置，可以改变画笔的中心点（根据切图的宽高的二分之一来决定）
+     */
     private void draw() {
         try {
-            int theme = getThemeTag(mContext);
             mCanvas = mHolder.lockCanvas();
             Bitmap bmp = null;
 
-            if (theme == 0) {
-                if (mCanvas != null) {
-                    //将坐标系原点移至去除内边距后的画布中心
-                    mCanvas.translate(960, 360);//该数值取的是屏幕分辨率的二分之一
-//                    Log.d("ClockView", "Lindenkrebs : dx=" + dx + " dy=" + dy);
+            if (mCanvas != null) {
+                //将坐标系原点移至去除内边距后的画布中心，该数值取的是屏幕分辨率的二分之一
+                mCanvas.translate(mWidthSize / 2, mHeightSize / 2);
 
-                    //绘制表盘背景
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_clock_bg1);
-                    mCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
-                    mCanvas.drawBitmap(bmp, -190, -190, mPaint);
+                //绘制表盘背景
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_clock_bg1);
+                mCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
+                //-190是背景切图高/宽的二分之一
+                mCanvas.drawBitmap(bmp, -190, -190, mPaint);
 
-                    //绘制时针
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_hour_hand_down1);
-                    mCanvas.save();
-                    //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
-                    mCanvas.rotate(180 + mHour % 12 * 30 + mMinute * 1.0f / 60 * 30);
-                    mCanvas.drawBitmap(bmp, -8, -8, mPointerPaint);//因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
-                    mCanvas.restore();
+                //绘制时针
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_hour_hand_down1);
+                mCanvas.save();
+                //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
+                mCanvas.rotate(180 + mHour % 12 * 30 + mMinute * 1.0f / 60 * 30);
+                //因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
+                mCanvas.drawBitmap(bmp, -8, -8, mPointerPaint);
+                mCanvas.restore();
 
-                    //绘制分针
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_minute_hand_down1);
-                    mCanvas.save();
-                    //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
-                    mCanvas.rotate(180 + mMinute * 6);
-                    mCanvas.drawBitmap(bmp, -8, -8, mPointerPaint);//因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
-                    mCanvas.restore();
+                //绘制分针
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_minute_hand_down1);
+                mCanvas.save();
+                //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
+                mCanvas.rotate(180 + mMinute * 6);
+                //因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
+                mCanvas.drawBitmap(bmp, -8, -8, mPointerPaint);
+                mCanvas.restore();
 
-                    //绘制秒针
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_second_hand);
-                    mCanvas.save();
-//                    因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
-                    mCanvas.rotate(180 + mSecond * 6);
-                    mCanvas.drawBitmap(bmp, -7, -7, mPointerPaint);//画完看起来偏右所以向左做了偏移
-                    mCanvas.restore();
-
-                    //绘制中心点
-//                bmp = BitmapFactory.decodeResource(getResources(),R.drawable.clock_centre);
-//                mCanvas.save();
-//                mCanvas.drawBitmap(bmp,-10,-15,mPointerPaint);//画完看起不居中所以做了偏移
-//                mCanvas.restore();
-                }
-            } else if (theme == 1) {
-
-                if (mCanvas != null) {
-                    //将坐标系原点移至去除内边距后的画布中心
-                    float dx = mCanvasWidth * 1.0f / 2 + getPaddingLeft() - getPaddingRight();
-                    float dy = mCanvasHeight * 1.0f / 2 + getPaddingTop() - getPaddingBottom();
-                    mCanvas.translate(dx, dy);
-                    Log.d("ClockView", "Lindenkrebs : dx=" + dx + " dy=" + dy);
-
-                    //绘制表盘背景
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_clock_bg2);
-                    mCanvas.drawColor(Color.TRANSPARENT, PorterDuff.Mode.CLEAR);
-                    mCanvas.drawBitmap(bmp, 0, 0, mPaint);
-//                                    mCanvas.drawColor(Color.WHITE);
-
-                    //绘制时针
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_hour_hand_down2);
-
-                    mCanvas.save();
-                    //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
-                    mCanvas.rotate(180 + mHour % 12 * 30 + mMinute * 1.0f / 60 * 30);
-                    mCanvas.drawBitmap(bmp, -11, -11, mPointerPaint);//因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
-                    mCanvas.restore();
-                    //绘制分针
-                    bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_minute_hand_down2);
-
-                    mCanvas.save();
-                    //因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
-                    mCanvas.rotate(180 + mMinute * 6);
-                    mCanvas.drawBitmap(bmp, -11, -11, mPointerPaint);//因为素材宽度为16,所以圆球半径为8 drawbitmap的绘制起点为0,0 要保证指针圆球在中心，所以偏移-8,-8
-                    mCanvas.restore();
-
-                }
+                //绘制秒针
+                bmp = BitmapFactory.decodeResource(getResources(), R.drawable.adc_second_hand);
+                mCanvas.save();
+                // 因为指针图片是垂直的,由上到下画图片一次旋转180度，加上分钟造成的偏移量
+                mCanvas.rotate(180 + mSecond * 6);
+                //画完看起来偏右所以向左做了偏移
+                mCanvas.drawBitmap(bmp, -7, -7, mPointerPaint);
+                mCanvas.restore();
             }
+
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -197,7 +169,6 @@ public class ClockView extends SurfaceView implements SurfaceHolder.Callback, Ru
     @Override
     public void surfaceDestroyed(SurfaceHolder holder) {
         flag = false;
-
     }
 
     @Override

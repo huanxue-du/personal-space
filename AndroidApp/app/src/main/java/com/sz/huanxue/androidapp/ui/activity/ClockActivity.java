@@ -3,14 +3,14 @@ package com.sz.huanxue.androidapp.ui.activity;
 
 import android.os.Bundle;
 import android.util.Log;
-import androidx.appcompat.app.AppCompatActivity;
+
 import com.sz.huanxue.androidapp.R;
 
 /**
  * @author huanxue
  * Created by Administrator on 2020/4/8.
  */
-public class ClockActivity extends AppCompatActivity {
+public class ClockActivity extends MyBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

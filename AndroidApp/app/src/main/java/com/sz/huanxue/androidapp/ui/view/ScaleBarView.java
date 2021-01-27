@@ -26,7 +26,7 @@ import com.sz.huanxue.androidapp.R;
  * Created by Administrator on 2017/5/17.
  */
 @SuppressLint("Recycle")
-public class ScaleBarViewRH5 extends View {
+public class ScaleBarView extends View {
 
     public static final int MOD_TYPE_FM = 5;
     public static final int MOD_TYPE_AM = 9;
@@ -57,7 +57,7 @@ public class ScaleBarViewRH5 extends View {
     private float textWidth, textHeight;
 
     @SuppressWarnings("deprecation")
-    public ScaleBarViewRH5(Context context, AttributeSet attrs) {
+    public ScaleBarView(Context context, AttributeSet attrs) {
         super(context, attrs);
 
         mScroller = new Scroller(getContext());

@@ -1,11 +1,12 @@
 package com.sz.huanxue.androidapp.ui.activity;
 
 import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
+
 import com.sz.huanxue.androidapp.R;
 import com.sz.huanxue.androidapp.ui.datamodule.UserInfo;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.databinding.ViewDataBinding;
 
 /**
  * 练习DataBinding+ConstraintLayout
@@ -13,7 +14,7 @@ import com.sz.huanxue.androidapp.ui.datamodule.UserInfo;
  * @author huanxue
  * Created by HSAE_DCY on 2019/12/23.
  */
-public class DataBindingActivity extends AppCompatActivity {
+public class DataBindingActivity extends MyBaseActivity {
 
     private ViewDataBinding mBinding;
     private UserInfo user;

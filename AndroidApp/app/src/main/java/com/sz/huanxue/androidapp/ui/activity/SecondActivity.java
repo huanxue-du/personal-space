@@ -30,7 +30,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import androidx.appcompat.app.AppCompatActivity;
 import io.reactivex.ObservableTransformer;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -50,7 +49,7 @@ import okhttp3.Response;
  * @author huanxue
  * Created by Administrator on 2019/7/16.
  */
-public class SecondActivity extends AppCompatActivity implements OnClickListener {
+public class SecondActivity extends MyBaseActivity implements OnClickListener {
 
     public static final String TAG = SecondActivity.class.getSimpleName();
     private Button mBtnStyle1;

@@ -15,18 +15,17 @@ import android.widget.RadioButton;
 
 import com.sz.huanxue.androidapp.R;
 import com.sz.huanxue.androidapp.ui.view.ArcRadioSeekBar;
-import com.sz.huanxue.androidapp.ui.view.ScaleBarViewRH5;
+import com.sz.huanxue.androidapp.ui.view.RightPanel;
+import com.sz.huanxue.androidapp.ui.view.ScaleBarView;
 import com.sz.huanxue.androidapp.utils.LogUtils;
 
 import java.util.Random;
-
-import androidx.appcompat.app.AppCompatActivity;
 
 /**
  * @author huanxue
  * Created by Administrator on 2019/7/16.
  */
-public class DemoActivity extends AppCompatActivity implements OnClickListener, Handler.Callback {
+public class DemoActivity extends MyBaseActivity implements OnClickListener, Handler.Callback {
 
     private static final int THREAD_DELAY = 0X000001;
     private static final String TAG = DemoActivity.class.getSimpleName();
@@ -40,7 +39,8 @@ public class DemoActivity extends AppCompatActivity implements OnClickListener, 
     private CheckBox mCbButton;
     private ArcRadioSeekBar mArcRadioSeekBar;
     private int pro = 0;
-    private ScaleBarViewRH5 mScaleBarViewRH5;
+    private ScaleBarView mScaleBarViewRH5;
+    private RightPanel mRightPanel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,6 +98,7 @@ public class DemoActivity extends AppCompatActivity implements OnClickListener, 
 
     }
 
+
     @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v) {
@@ -110,12 +111,12 @@ public class DemoActivity extends AppCompatActivity implements OnClickListener, 
                 break;
             case R.id.button2:
                 int fm = new Random().nextInt() * (10800 - 8750 + 1) + 8750;
-                mScaleBarViewRH5.initViewParam(fm, ScaleBarViewRH5.MOD_TYPE_FM);
+                mScaleBarViewRH5.initViewParam(fm, ScaleBarView.MOD_TYPE_FM);
                 LogUtils.d(TAG + " initViewParam  MOD_TYPE_FM:" + fm);
                 break;
             case R.id.button3:
                 int am = new Random().nextInt() * (1602 - 531 + 1) + 531;
-                mScaleBarViewRH5.initViewParam(am, ScaleBarViewRH5.MOD_TYPE_AM);
+                mScaleBarViewRH5.initViewParam(am, ScaleBarView.MOD_TYPE_AM);
                 LogUtils.d(TAG + "  initViewParam  MOD_TYPE_AM:" + am);
                 break;
         }

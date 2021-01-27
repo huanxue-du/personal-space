@@ -5,21 +5,23 @@ import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+
 import com.sz.huanxue.androidapp.R;
+import com.sz.huanxue.androidapp.ui.activity.MyBaseActivity;
 import com.sz.huanxue.androidapp.utils.Constant;
+
 import java.util.List;
 
 /**
  * @author huanxue
  * Created by HSAE_DCY on 2019.12.24.
  */
-public class MainRlvAdapter extends MyBaseRlvAdapter<Class> {
+public class MainRlvAdapter extends MyBaseRlvAdapter<Class<? extends MyBaseActivity>> {
 
     private static final String TAG = "MainRlvAdapter";
     private Context mContext;
-    private List<Class> mData;
 
-    public MainRlvAdapter(Context context, List<Class> data) {
+    public MainRlvAdapter(Context context, List<Class<? extends MyBaseActivity>> data) {
         super(context, data);
         mContext = context;
         mData = data;

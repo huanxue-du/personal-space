@@ -6,6 +6,7 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Process;
 
+import com.sz.huanxue.androidapp.data.local.DataStoreUtils;
 import com.sz.huanxue.androidapp.data.local.SPUtils;
 import com.sz.huanxue.androidapp.data.local.SharedPrepreferenceUtils;
 import com.sz.huanxue.androidapp.data.remote.RetrofitManager;
@@ -47,7 +48,9 @@ public class HuanXueApp extends Application {
                     .setBaseUrl("https://fawivi-gw-public-uat.faw.cn:63443"));
         }
         SharedPrepreferenceUtils.getInstance().setBooleanSharedPreferences("11", true);
-        SPUtils.INSTANCE.setBooleanSharedPreferences("11", false);
+        SPUtils.INSTANCE.setBooleanSharedPreferences("12", false);
+        DataStoreUtils.INSTANCE.putSyncData("13", "HuanXueApp");
+        DataStoreUtils.INSTANCE.putSyncData("14", 1008611);
     }
 
     @Override

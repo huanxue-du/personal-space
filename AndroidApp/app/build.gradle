@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'kotlin-android-extensions'
 
 
 android {
@@ -32,6 +34,10 @@ android {
         targetCompatibility = 1.8
     }
     buildToolsVersion = '28.0.3'
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 
@@ -80,6 +86,9 @@ dependencies {
 
     implementation 'com.hsae.h5.app:business:+'
     implementation 'com.squareup.okhttp3:okhttp:4.6.0'
+
+    // Preferences DataStore
+    implementation "androidx.datastore:datastore-preferences:1.0.0-alpha04"
 }
 
 task adbRemount(dependsOn: 'assembleRelease', type: Exec) {
