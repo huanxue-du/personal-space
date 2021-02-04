@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">KuWoMusic</string>
+    <string name="text_daily_recommend">每日推荐</string>
+    <string name="toast_network_error">暂时无法播放，请检查网络</string>
+    <string name="toast_no_copyright">暂无该歌曲版权</string>
+    <string name="toast_paid">该歌曲为单独付费内容，暂不支持试听</string>
+    <string name="toast_upgrade_vip">您当前还未升级VIP \n是否升级VIP?</string>
+    <string name="toast_audition_end">试听结束，升级VIP可播放完整版</string>
+    <string name="toast_charge_faild">试听付费信息获取失败</string>
+</resources>

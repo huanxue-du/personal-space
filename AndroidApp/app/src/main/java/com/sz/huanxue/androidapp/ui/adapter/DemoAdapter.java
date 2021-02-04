@@ -2,7 +2,9 @@ package com.sz.huanxue.androidapp.ui.adapter;
 
 import android.content.Context;
 import android.widget.TextView;
+
 import com.sz.huanxue.androidapp.R;
+
 import java.util.List;
 
 /**
@@ -12,7 +14,7 @@ import java.util.List;
 public class DemoAdapter extends MyBaseRlvAdapter<String> {
 
     private Context mContext;
-    private List<String> mData;
+
 
     public DemoAdapter(Context context, List<String> data) {
         super(context, data);
@@ -20,14 +22,8 @@ public class DemoAdapter extends MyBaseRlvAdapter<String> {
         mData = data;
     }
 
-
     @Override
-    public int getLayout() {
-        return R.layout.simple_list_item_textview_only;
-    }
-
-    @Override
-    public void binding(BaseHolder holder, int position) {
+    public void callbackViewHolder(BaseHolder holder, int position) {
 
         if (position % 2 == 0) {
             TextView view = (TextView) holder.getView(R.id.ku_usm_list_item_text);
@@ -37,6 +33,11 @@ public class DemoAdapter extends MyBaseRlvAdapter<String> {
             view.setText(mData.get(position));
         }
 
+    }
+
+    @Override
+    public int getLayout() {
+        return R.layout.simple_list_item_textview_only;
     }
 
 }

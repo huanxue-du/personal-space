@@ -5,11 +5,11 @@
 
     <data>
 
-        <import type="com.sz.huanxue.androidapp.ui.datamodule.UserInfo" />
+        <import type="com.sz.huanxue.androidapp.ui.entity.UserInfo" />
 
         <variable
           name="userinfo"
-          type="UserInfo" />
+          type="com.sz.huanxue.androidapp.ui.entity.UserInfo" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -23,6 +23,7 @@
           android:layout_height="wrap_content"
           android:text="@{userinfo.name}"
           android:textSize="30sp"
+          app:layout_constraintRight_toRightOf="parent"
           app:layout_constraintLeft_toLeftOf="parent"
           app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,19 +33,19 @@
           android:layout_height="wrap_content"
           android:text="@{userinfo.password}"
           android:textSize="30sp"
-          app:layout_constraintTop_toTopOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/tv_name"
           app:layout_constraintRight_toRightOf="parent"
           app:layout_constraintLeft_toLeftOf="parent" />
 
         <Button
           android:id="@+id/btn_databinding"
           android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
           android:background="@drawable/common_btn_bg_selector"
           app:layout_constraintTop_toTopOf="parent"
           app:layout_constraintBottom_toBottomOf="parent"
           app:layout_constraintRight_toRightOf="parent"
-          app:layout_constraintLeft_toLeftOf="parent"
-          android:layout_height="wrap_content"/>
+          app:layout_constraintLeft_toLeftOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -1,7 +1,0 @@
-<application>
-  <component name="NotificationConfiguration">
-    <notification groupId="Android XML code style notification" displayType="NONE" shouldLog="false" />
-    <notification groupId="Build sync orphan modules" displayType="NONE" shouldLog="false" />
-    <notification groupId="Configure Kotlin in Project" displayType="STICKY_BALLOON" shouldLog="false" />
-  </component>
-</application>

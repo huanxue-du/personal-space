@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -24,20 +25,24 @@ public class ActivityManager implements Thread.UncaughtExceptionHandler, Applica
     private Activity mCurrActivity;
     private boolean isBackgroud = false;
 
-    public Context getContext() {
-        return context;
-    }
-
-    private static final class ActivityManagerHolder {
-        private static final ActivityManager INSTANCE = new ActivityManager();
-    }
-
     private ActivityManager() {
         mActivities = new ArrayList<Activity>();
     }
 
     public static ActivityManager self() {
         return ActivityManagerHolder.INSTANCE;
+    }
+
+    public static void startApp(Context context, Class cls) {
+        Intent i = new Intent(context, cls);
+//        i.setClassName("com.sz.hsae.ku_usm", "com.sz.hsae.ku_usm.activity.MainActivity");
+        i.addFlags(
+                Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+        context.startActivity(i);
+    }
+
+    public Context getContext() {
+        return context;
     }
 
     public Activity getmCurrActivity() {
@@ -178,4 +183,7 @@ public class ActivityManager implements Thread.UncaughtExceptionHandler, Applica
         return false;
     }
 
+    private static final class ActivityManagerHolder {
+        private static final ActivityManager INSTANCE = new ActivityManager();
+    }
 }

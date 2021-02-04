@@ -1,6 +1,8 @@
 package com.sz.huanxue.androidapp.ui.activity;
 
+import android.graphics.Rect;
 import android.os.Bundle;
+import android.view.View;
 
 import com.sz.huanxue.androidapp.R;
 import com.sz.huanxue.androidapp.ui.adapter.MainRlvAdapter;
@@ -31,10 +33,11 @@ public class MainActivity extends MyBaseActivity {
     private void initView() {
         List<Class<? extends MyBaseActivity>> mList = new ArrayList<>();
         mList.add(DataBindingActivity.class);
-        mList.add(MainActivity.class);
+        mList.add(ThemeShowActivity.class);
         mList.add(SecondActivity.class);
         mList.add(DemoActivity.class);
         mList.add(ClockActivity.class);
+        mList.add(KotlinActivity.class);
         mList.add(PanelActivity.class);
         mList.add(DataBindingActivity.class);
         mList.add(MainActivity.class);
@@ -47,6 +50,12 @@ public class MainActivity extends MyBaseActivity {
         mRylMainView.setLayoutManager(layoutManager);
         MainRlvAdapter mRlvAdapter = new MainRlvAdapter(this, mList);
         mRylMainView.setAdapter(mRlvAdapter);
+        mRylMainView.addItemDecoration(new RecyclerView.ItemDecoration() {
+            @Override
+            public void getItemOffsets(@NonNull Rect outRect, @NonNull View view, @NonNull RecyclerView parent, @NonNull RecyclerView.State state) {
+
+            }
+        });
 
     }
 

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Hello World"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+      android:id="@+id/btn1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="无感登录"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+      android:id="@+id/btn2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="酷我绑定"
+      app:layout_constraintLeft_toLeftOf="@+id/btn1"
+      app:layout_constraintTop_toBottomOf="@+id/btn1" />
+
+    <Button
+      android:id="@+id/btn3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="显示二维码"
+      app:layout_constraintLeft_toLeftOf="@+id/btn2"
+      app:layout_constraintTop_toBottomOf="@+id/btn2" />
+
+    <Button
+      android:id="@+id/btn4"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="播放单曲"
+      app:layout_constraintLeft_toLeftOf="@+id/btn3"
+      app:layout_constraintTop_toBottomOf="@+id/btn3" />
+
+    <Button
+      android:id="@+id/btn5"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="列表播放"
+      app:layout_constraintLeft_toLeftOf="@+id/btn4"
+      app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <Button
+      android:id="@+id/btn6"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取推荐列表"
+      app:layout_constraintLeft_toLeftOf="@+id/btn5"
+      app:layout_constraintTop_toBottomOf="@+id/btn5" />
+
+    <ImageView
+      android:id="@+id/iv_qr_code"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintLeft_toLeftOf="parent"
+      app:layout_constraintRight_toRightOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+      android:id="@+id/tv_show"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="http://ej.sycdn.kuwo.cn/9c84c3f0baf502ed0fa4ac4843ccf37e/5ee9db14/resource/a1/44/32/1768305774.aac"
+      app:layout_constraintLeft_toLeftOf="@+id/btn6"
+      app:layout_constraintTop_toBottomOf="@+id/btn6" />
+
+    <Button
+      android:id="@+id/btn7"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="暂停播放"
+      app:layout_constraintLeft_toRightOf="@id/btn1"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+      android:id="@+id/btn8"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="继续播放"
+      app:layout_constraintLeft_toRightOf="@id/btn2"
+      app:layout_constraintTop_toBottomOf="@id/btn1" />
+
+    <Button
+      android:id="@+id/btn9"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="上一曲"
+      app:layout_constraintLeft_toRightOf="@id/btn3"
+      app:layout_constraintTop_toBottomOf="@id/btn2" />
+
+    <Button
+      android:id="@+id/btn10"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="下一曲"
+      app:layout_constraintLeft_toRightOf="@id/btn4"
+      app:layout_constraintTop_toBottomOf="@id/btn3" />
+
+    <Button
+      android:id="@+id/btn11"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="搜索歌手"
+      app:layout_constraintLeft_toRightOf="@id/btn5"
+      app:layout_constraintTop_toBottomOf="@id/btn4" />
+
+    <Button
+      android:id="@+id/btn12"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取歌词显示"
+      app:layout_constraintLeft_toRightOf="@id/btn6"
+      app:layout_constraintTop_toBottomOf="@id/btn5" />
+
+    <Button
+      android:id="@+id/btn13"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取推荐歌单"
+      app:layout_constraintLeft_toRightOf="@id/btn7"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+      android:id="@+id/btn14"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取新歌歌单"
+      app:layout_constraintLeft_toRightOf="@id/btn8"
+      app:layout_constraintTop_toBottomOf="@id/btn7" />
+
+    <Button
+      android:id="@+id/btn15"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取排行榜"
+      app:layout_constraintLeft_toRightOf="@id/btn9"
+      app:layout_constraintTop_toBottomOf="@id/btn8" />
+
+    <Button
+      android:id="@+id/btn16"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取歌手"
+      app:layout_constraintLeft_toRightOf="@id/btn10"
+      app:layout_constraintTop_toBottomOf="@id/btn9" />
+
+    <Button
+      android:id="@+id/btn17"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取分类"
+      app:layout_constraintLeft_toRightOf="@id/btn11"
+      app:layout_constraintTop_toBottomOf="@id/btn10" />
+
+    <Button
+      android:id="@+id/btn18"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="收藏歌曲"
+      app:layout_constraintLeft_toRightOf="@id/btn12"
+      app:layout_constraintTop_toBottomOf="@id/btn11" />
+
+    <Button
+      android:id="@+id/btn19"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取收藏歌单"
+      app:layout_constraintLeft_toRightOf="@id/btn13"
+      app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+      android:id="@+id/btn20"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="获取收藏专辑"
+      app:layout_constraintLeft_toRightOf="@id/btn14"
+      app:layout_constraintTop_toBottomOf="@id/btn13" />
+</androidx.constraintlayout.widget.ConstraintLayout>

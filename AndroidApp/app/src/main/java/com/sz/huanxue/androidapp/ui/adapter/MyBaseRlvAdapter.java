@@ -39,7 +39,7 @@ public abstract class MyBaseRlvAdapter<T> extends RecyclerView.Adapter<BaseHolde
 
     @Override
     public void onBindViewHolder(@NonNull MyBaseRlvAdapter.BaseHolder holder, int position) {
-        binding(holder, position);
+        callbackViewHolder(holder, position);
     }
 
     @Override
@@ -47,7 +47,7 @@ public abstract class MyBaseRlvAdapter<T> extends RecyclerView.Adapter<BaseHolde
         return mData.size();
     }
 
-    public abstract void binding(BaseHolder holder, int position);
+    public abstract void callbackViewHolder(BaseHolder holder, int position);
 
     /**
      * 抽象，必须让子类重写，重写的时候给具体的布局的id，item_layout.xml

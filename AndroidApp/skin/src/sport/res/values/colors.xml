@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0B0B0B</color>
+    <color name="colorPrimaryDark">#0B0B0B</color>
+    <color name="colorAccent">#0B0B0B</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorProgressBar_secondary">#75ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#9A9C9E</color>
+    <color name="colortextBlue">#f16085</color>
+    <color name="bluetooth_connect_cover">#51ff5c5c</color>
+    <color name="the_cover_of_dialog_bg">#4cff5c5c</color>
+    <color name="title_color">#FFFFFF</color>
+    <color name="title_copy_color">#9C9C9C</color>
+    <color name="music_list_title_normal_color">#D0D0D0</color>
+    <color name="music_list_title_play_color">#f16085</color>
+    <color name="history_list_type">#FF6F7172</color>
+    <color name="the_text_color_of_tv_bt_music">#9A9C9E</color>
+    <color name="white_33p">#55FFFFFF</color>
+    <color name="progress_color_end">#FFEC2658</color>
+</resources>

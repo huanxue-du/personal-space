@@ -1,2 +1,4 @@
+include ':KuWoMusic'
+include ':skin'
 include ':app', ':JavaDemo', ':demo'
 rootProject.name='AndroidApp'

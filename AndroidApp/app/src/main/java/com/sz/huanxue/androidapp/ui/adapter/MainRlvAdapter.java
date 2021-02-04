@@ -8,7 +8,7 @@ import android.widget.Button;
 
 import com.sz.huanxue.androidapp.R;
 import com.sz.huanxue.androidapp.ui.activity.MyBaseActivity;
-import com.sz.huanxue.androidapp.utils.Constant;
+import com.sz.huanxue.androidapp.utils.ActivityManager;
 
 import java.util.List;
 
@@ -28,14 +28,14 @@ public class MainRlvAdapter extends MyBaseRlvAdapter<Class<? extends MyBaseActiv
     }
 
     @Override
-    public void binding(BaseHolder holder, final int position) {
+    public void callbackViewHolder(BaseHolder holder, final int position) {
         Log.i("logcat", TAG + "--binding--" + position);
         Button button = (Button) holder.getView(R.id.item_btn_ryl_main);
         button.setText(mData.get(position).getSimpleName());
         button.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                Constant.startApp(mContext, mData.get(position));
+                ActivityManager.startApp(mContext, mData.get(position));
             }
         });
         Log.i("logcat", TAG + "---binding--name:" + button.getText());

@@ -3,10 +3,10 @@ package com.sz.huanxue.androidapp.ui.activity;
 import android.os.Bundle;
 
 import com.sz.huanxue.androidapp.R;
-import com.sz.huanxue.androidapp.ui.datamodule.UserInfo;
+import com.sz.huanxue.androidapp.databinding.ActivityDatabindBinding;
+import com.sz.huanxue.androidapp.ui.entity.UserInfo;
 
 import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
 
 /**
  * 练习DataBinding+ConstraintLayout
@@ -16,7 +16,7 @@ import androidx.databinding.ViewDataBinding;
  */
 public class DataBindingActivity extends MyBaseActivity {
 
-    private ViewDataBinding mBinding;
+    private ActivityDatabindBinding mBinding;
     private UserInfo user;
 
     @Override
@@ -24,5 +24,6 @@ public class DataBindingActivity extends MyBaseActivity {
         super.onCreate(savedInstanceState);
         user = new UserInfo("hsae", "南山区航盛科技大厦");
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_databind);
+        mBinding.setUserinfo(user);
     }
 }

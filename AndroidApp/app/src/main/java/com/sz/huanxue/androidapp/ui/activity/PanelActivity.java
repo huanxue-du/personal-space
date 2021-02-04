@@ -6,6 +6,7 @@ import android.widget.Button;
 
 import com.sz.huanxue.androidapp.R;
 import com.sz.huanxue.androidapp.ui.view.RightPanel;
+import com.sz.huanxue.androidapp.utils.ThemeUtils;
 
 import androidx.annotation.Nullable;
 
@@ -27,5 +28,13 @@ public class PanelActivity extends MyBaseActivity {
         RightPanel rightPanel = new RightPanel(this, mView, 200, 300);
         rightPanel.setContentView(this.getLayoutInflater().inflate(R.layout.layout_rightpanel, null));
         rightPanel.setBindView(mButton);
+        if (ThemeUtils.INSTANCE.getChangingTheme() == 1) {
+            ThemeUtils.INSTANCE.registerSkinCompleteListener(new ThemeUtils.SkinCompleteListener() {
+                @Override
+                public void onSuccess() {
+
+                }
+            });
+        }
     }
 }
