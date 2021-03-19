@@ -48,16 +48,15 @@ public class KuWoCallback implements IPlayControlObserver, IPlayerObserver, IUse
         return sInstances;
     }
 
-
-   /* public void registerKuWoCallback(IKuWoMusicCallBack callback) {
+/*    public void registerKuWoCallback(IKuWoMusicCallBack callback) {
         if (callback != null) {
 
             mCallbacks.register(callback);
         }
-    }*/
+    }
 
 
-   /* public void unregisterKuWoCallback(IKuWoMusicCallBack callback) {
+    public void unregisterKuWoCallback(IKuWoMusicCallBack callback) {
         if (callback != null) {
             mCallbacks.unregister(callback);
         }

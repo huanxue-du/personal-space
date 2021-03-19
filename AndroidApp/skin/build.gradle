@@ -34,7 +34,6 @@ android {
     productFlavors {
         sport {}
         technology {}
-        pppttt {}
     }
     sourceSets {
         sport {

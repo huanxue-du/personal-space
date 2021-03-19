@@ -23,4 +23,6 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="load_more_message">正在努力加载</string>
+    <string name="load_more_empty">没有更多数据</string>
 </resources>

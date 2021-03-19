@@ -7,10 +7,11 @@
     <color name="colorLightBlue">#504EBEF0</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorpop_dirvemode_content">#a7b8ce</color>
-
+    <color name="colortextBlue">#83BAFF</color>
     <color name="colorBtnStroke">#38F803</color>
     <color name="colorBtn_N">#9DA1B7</color>
     <color name="colorBtn_P">#3B53ED</color>
     <color name="colorWhite_two">#38F803</color>
+    <color name="colorGray">#9A9C9E</color>
 
 </resources>

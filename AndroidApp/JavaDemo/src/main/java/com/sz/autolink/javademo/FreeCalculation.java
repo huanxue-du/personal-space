@@ -7,13 +7,13 @@ package com.sz.autolink.javademo;
 public class FreeCalculation {
 
     public static void main(String[] args) {
-        int years = getYears(15, 40);
+        int years = getYears(10, 50);
         System.out.println("need years is = " + years);
     }
 
     private static int getYears(int num1, int num2) {
 
-        double sum = 3.5;
+        double sum = 10;
 
         for (int i = 0; sum < num2; i++) {
             sum = ((sum * 1.06) + num1);
